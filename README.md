@@ -1,2 +1,2 @@
-# streamlit
-# mysql-connector-python
+streamlit
+mysql-connector-python
