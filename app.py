@@ -7,10 +7,11 @@ import plotly.express as px
 
 # --- KONEKSI ke MySQL ---
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
+    host="203.0.113.25",      # Ganti dengan IP publik server kamu
+    user="capstone",
+    password="capstone",
     database="e-pharm1"
+
 )
 
 # Konfigurasi tampilan
